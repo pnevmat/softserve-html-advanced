@@ -662,3 +662,143 @@ button:focus {
     height: 187px;
   }
 }
+
+/* Organize section */
+.organize__title {
+  max-width: 335px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+.organize__text {
+  margin-bottom: 60px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+.organize__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 236px;
+  height: 60px;
+  border-radius: 35px;
+  background-color: var(--primary-btn-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  color: var(--white-text);
+}
+
+.organize__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .organize {
+    padding-top: 50px;
+    padding-right: 23px;
+    padding-bottom: 50px;
+    padding-left: 23px;
+  }
+
+  .organize__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .organize__text {
+    max-width: 265px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .organize__btn {
+    margin-bottom: 50px;
+  }
+
+  .organize__text-pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .organize {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .organize__content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1243px;
+  }
+
+  .organize__text__container {
+    width: 100%;
+    text-align: left;
+  }
+
+  .organize__title,
+  .organize__text {
+    text-align: left;
+  }
+
+  .organize__img {
+    max-width: 624px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .organize {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .organize__text__container {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .organize__content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .organize__content-wrapper {
+    max-width: 900px;
+  }
+
+  .organize__text__container {
+    max-width: 408px;
+  }
+
+  .organize__img {
+    max-width: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .organize__content-wrapper {
+    max-width: 1177px;
+  }
+
+  .organize__text__container {
+    max-width: 532px;
+  }
+
+  .organize__img {
+    max-width: 624px;
+  }
+}
