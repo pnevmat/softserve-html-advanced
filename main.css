@@ -1250,6 +1250,14 @@ button:focus {
 
   .partners__list__item__img {
     width: 100%;
-    max-width: 193px;
+    max-width: 191px;
+  }
+
+  .partners__list__item__img-big {
+    max-width: 221px;
+  }
+
+  .partners__list__item__img-small {
+    max-width: 140px;
   }
 }
