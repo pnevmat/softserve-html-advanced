@@ -1727,3 +1727,79 @@ button:focus {
     max-width: 255px;
   }
 }
+
+/* Contact section */
+.contact {
+}
+
+.contact__title {
+  margin-bottom: 17px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+  color: var(--black-title-text);
+}
+
+.contact__text {
+  margin-bottom: 60px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+  color: var(--black-text);
+}
+
+.contact__form__container {
+}
+
+.contact__form {
+}
+
+.contact__form__title {
+}
+
+.contact__form__input {
+}
+
+.contact__form__textarea {
+}
+
+.contact__form__btn {
+}
+
+.contact__address__container {
+}
+
+.contact__address__list {
+}
+
+.contact__address__text__wrapper {
+}
+
+.contact__address__img {
+}
+
+.contact__address__text {
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact__map__img {
+  }
+
+  .contact__social__links__list {
+  }
+
+  .contact__social__link {
+  }
+
+  .contact__social__link__img {
+  }
+}
